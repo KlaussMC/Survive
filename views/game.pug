@@ -1,0 +1,15 @@
+doctype html
+html
+  head
+    meta(charset='utf-8')
+    title=title
+    link(rel='stylesheet', href='/css/game.css')
+      
+    script(src="src/lib/socket.io.js")
+    script window.addEventListener("load", e => window.socket = io.connect(window.location.hostname + ":3000"))
+    
+    script(src="src/index.js")
+    
+    script(src="src/socket-handler.js")
+  body
+    canvas(width="1188", height="594")#gameCanvas

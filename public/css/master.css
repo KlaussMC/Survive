@@ -1,0 +1,15 @@
+* {
+  margin: 0px;
+  padding: 0px;
+
+  outline: none;
+  box-sizing: border-box;
+
+  font-family: 'Segoe UI', 'Helvetica';
+}
+body {
+  font-weight: lighter;
+}
+a {
+  color: #00B7FF;
+}
